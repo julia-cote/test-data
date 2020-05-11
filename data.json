@@ -1,1 +1,92 @@
-test
+{
+  "success": true,
+  "message": [
+    {
+      "level": "INFO",
+      "text": ["The query was executed successfully"]
+    }
+  ],
+  "properties": [
+    {
+      "field": "Active",
+      "typeName": "//int@"
+    }, {
+      "field": "Confirmed",
+      "typeName": "//int@"
+    }, {
+      "field": "Country_Region",
+      "typeName": "//string@"
+    }, {
+      "field": "Deaths",
+      "typeName": "//int@"
+    }, {
+      "field": "Lat",
+      "typeName": "//float@"
+    }, {
+      "field": "Lon",
+      "typeName": "//float@"
+    },{
+      "field": "Recovered",
+      "typeName": "//int@"
+    },{
+      "field": "geometry",
+      "typeName": "//wkt//wgs84e2d//point10432"
+    }
+  ],
+  "results": [
+    {
+      "TypedValues": [
+        {
+          "typeName": "Active",
+          "value": 32070
+        }, {
+          "typeName": "Confirmed",
+          "value": 61814
+        }, {
+          "typeName": "Country_Region",
+          "value": "Canada"
+        }, {
+          "typeName": "Deaths",
+          "value": 3984
+        }, {
+          "typeName": "Lat",
+          "value": 60.001
+        }, {
+          "typeName": "Lon_",
+          "value": -95.001
+        }, {
+          "typeName": "Recovered",
+          "value": 25760
+        }, {
+          "typeName": "geometry",
+          "value": "POINT(-95.001 60.001)"
+        }
+      ]
+    },{
+      "TypedValues": [
+        {
+          "typeName": "Active",
+          "value": 955634
+        }, {
+          "typeName": "Confirmed",
+          "value": 1181885
+        }, {
+          "typeName": "Country_Region",
+          "value": "US"
+        }, {
+          "typeName": "Deaths",
+          "value": 69079
+        }, {
+          "typeName": "Lat",
+          "value": 40.0
+        }, {
+          "typeName": "Lon_",
+          "value": -100.0
+        }, {
+          "typeName": "geometry",
+          "value": "POINT(-100 40)"
+        }
+      ]
+    }
+  ]
+  }
