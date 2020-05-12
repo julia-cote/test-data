@@ -26,9 +26,6 @@
       "field": "Longitude",
       "typeName": "//float@"
     },{
-      "field": "Recovered",
-      "typeName": "//int@"
-    },{
       "field": "geometry",
       "typeName": "//wkt//wgs84e2d//point10432"
     }
@@ -54,9 +51,6 @@
         }, {
           "typeName": "Longitude",
           "value": -95.001
-        }, {
-          "typeName": "Recovered",
-          "value": 25760
         }, {
           "typeName": "geometry",
           "value": "POINT(-95.001 60.001)"
