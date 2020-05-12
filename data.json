@@ -27,7 +27,7 @@
       "typeName": "//float@"
     },{
       "field": "geometry",
-      "typeName": "//wkt//wgs84e2d//point10432"
+      "typeName": "//wkt//wgs84e2d//point@10432"
     }
   ],
   "results": [
