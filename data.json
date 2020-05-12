@@ -52,7 +52,7 @@
           "typeName": "Lat",
           "value": 60.001
         }, {
-          "typeName": "Lon_",
+          "typeName": "Lon",
           "value": -95.001
         }, {
           "typeName": "Recovered",
@@ -80,7 +80,7 @@
           "typeName": "Lat",
           "value": 40.0
         }, {
-          "typeName": "Lon_",
+          "typeName": "Lon",
           "value": -100.0
         }, {
           "typeName": "geometry",
