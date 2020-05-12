@@ -20,10 +20,10 @@
       "field": "Deaths",
       "typeName": "//int@"
     }, {
-      "field": "Lat",
+      "field": "Latitude",
       "typeName": "//float@"
     }, {
-      "field": "Lon",
+      "field": "Longitude",
       "typeName": "//float@"
     },{
       "field": "Recovered",
@@ -49,10 +49,10 @@
           "typeName": "Deaths",
           "value": 3984
         }, {
-          "typeName": "Lat",
+          "typeName": "Latitude",
           "value": 60.001
         }, {
-          "typeName": "Lon",
+          "typeName": "Longitude",
           "value": -95.001
         }, {
           "typeName": "Recovered",
@@ -77,10 +77,10 @@
           "typeName": "Deaths",
           "value": 69079
         }, {
-          "typeName": "Lat",
+          "typeName": "Latitude",
           "value": 40.0
         }, {
-          "typeName": "Lon",
+          "typeName": "Longitude",
           "value": -100.0
         }, {
           "typeName": "geometry",
