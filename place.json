@@ -29,7 +29,7 @@
       "status": "A",
       "classification": {
         "level": "unclassified",
-        "relatedTo: "All"
+        "relatedTo": "All"
        }
     },
 	{
@@ -57,7 +57,7 @@
       "status": "C",
       "classification": {
         "level": "unclassified",
-        "relatedTo: "All"
+        "relatedTo": "All"
        }
     },
 	{
@@ -85,7 +85,7 @@
       "status": "B",
       "classification": {
         "level": "unclassified",
-        "relatedTo: "All"
+        "relatedTo": "All"
        }
     },
 	{
@@ -113,7 +113,7 @@
       "status": "B",
       "classification": {
         "level": "unclassified",
-        "relatedTo: "All"
+        "relatedTo": "All"
        }
     },
 		{
@@ -141,7 +141,7 @@
       "status": "B",
       "classification": {
         "level": "unclassified",
-        "relatedTo: "All"
+        "relatedTo": "All"
        }
     }  
   ]
