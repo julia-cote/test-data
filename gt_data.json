@@ -1,0 +1,517 @@
+{
+  "success": true,
+  "messages": [
+    {
+      "level": "INFO",
+      "text": {
+        "The query was executed successfully"
+      }
+    }
+  ],
+  "results": [
+    {
+      "domain": "DomainA",
+      "entityId": "123456",
+      "visibility": "",
+      "version": "",
+      "jobId": "",
+      "authorizations": [],
+      "timestamp": "2020-01-02T10:05:01:000Z",
+      "typeValueCount": 11,
+      "metadata": [
+        {
+          "keys": "_TIMESTAMP",
+          "values": [
+            "2020-01-02T10:05:01:000Z"
+          ]
+        },
+        {
+          "keys": "_DOMAIN",
+          "values": [
+            "DomainA"
+          ]
+        },
+        {
+          "keys": "_ENTITY_ID",
+          "values": [
+            "123456"
+          ]
+        }
+      ],
+      "typedValues": [
+        {
+          "label": "IdentifierA",
+          "typeName": "//ip//ipv4@12345",
+          "typeVersion": 12345,
+          "visibility": "500A",
+          "context": "",
+          "value": "1.1.1.1",
+          "typedValues": []
+        },
+        {
+          "label": "MULTIPOLYGON",
+          "typeName": "//wkt//wgs84e2d//multipolygon@10429",
+          "typeVersion": 10429,
+          "visibility": "500A",
+          "context": "",
+          "value": "MULTIPOLYGON(((-75.94495155895439 45.879391796499796,-75.90787270153251 45.88799553928333,-75.87903359020439 45.88895142845389,-75.86118080700126 45.86791806674357,-75.85980751598564 45.84496350068333,-75.89688637340751 45.84400685479899,-75.94495155895439 45.879391796499796)), ((-76.18802406872001 45.60336842875396,-76.11249306286064 45.62738287920759,-76.06305458629814 45.625462101613074,-76.05756142223564 45.59856430460573,-76.08502724254814 45.578382491160056,-76.16742470348564 45.5735762279456,-76.18802406872001 45.60336842875396)), ((-75.67372658336845 45.55674355484258,-75.58034279430595 45.585583606177465,-75.53777077282157 45.5509737674752,-75.5281577357122 45.50383166428498,-75.61192848766532 45.51153103282902,-75.67372658336845 45.55674355484258)))",
+          "typedValues": []
+        },
+        {
+          "label": "DATE_FIRST",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibilty": "500A",
+          "context": "",
+          "value": "2020-08-07T10:22:09.000Z",
+          "typedValues": []
+        },
+        {
+          "label": "DATE_LAST",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibilty": "500A",
+          "context": "",
+          "value": "2020-10-07T11:21:19.000Z",
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD1",
+          "typeName": "//float@1638",
+          "typeVersion": 1638,
+          "visibility": "500A",
+          "context": "",
+          "value": 8.2,
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD2",
+          "typeName": "//float@1638",
+          "typeVersion": 1638,
+          "visibility": "500A",
+          "context": "",
+          "value": "25.0",
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD3",
+          "typeName": "//int@1645",
+          "typeVersion": 1645,
+          "visibility": "500A",
+          "value": 1,
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD4",
+          "typeName": "//int1645",
+          "typeVersion": 1645,
+          "visibility": "500A",
+          "value": 4,
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD5",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibility": "500A",
+          "value": "something",
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD6",
+          "typeName": "//int@1645",
+          "typeVersion": 1645,
+          "visibility": "500A",
+          "value": 8,
+          "typedValue": []
+        },
+        {
+          "label": "SOME_FIELD7",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibility": "500A",
+          "value": "some other thing",
+          "typedValues": []
+        }
+      ]
+    },
+    {
+      "domain": "DomainA",
+      "entityId": "123457",
+      "visibility": "",
+      "version": "",
+      "jobId": "",
+      "authorizations": [],
+      "timestamp": "2020-02-02T10:05:01:000Z",
+      "typeValueCount": 11,
+      "metadata": [
+        {
+          "keys": "_TIMESTAMP",
+          "values": [
+            "2020-02-02T10:05:01:000Z"
+          ]
+        },
+        {
+          "keys": "_DOMAIN",
+          "values": [
+            "DomainA"
+          ]
+        },
+        {
+          "keys": "_ENTITY_ID",
+          "values": [
+            "123457"
+          ]
+        }
+      ],
+      "typedValues": [
+        {
+          "label": "IdentifierA",
+          "typeName": "//ip//ipv4@12345",
+          "typeVersion": 12345,
+          "visibility": "500A",
+          "context": "",
+          "value": "2.2.2.2",
+          "typedValues": []
+        },
+        {
+          "label": "MULTIPOLYGON",
+          "typeName": "//wkt//wgs84e2d//multipolygon@10429",
+          "typeVersion": 10429,
+          "visibility": "500A",
+          "context": "",
+          "value": "MULTIPOLYGON(((-73.77186887200837 45.62218292249249,-73.64003293450837 45.69129349753832,-73.58510129388337 45.66442729813464,-73.61256711419587 45.579906692014475,-73.77186887200837 45.62218292249249)),((-73.38185422357087 45.493333362867745,-73.20881955560212 45.552987050225845,-73.19234006341462 45.50103416716381,-73.38185422357087 45.493333362867745)))",
+          "typedValues": []
+        },
+        {
+          "label": "DATE_FIRST",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibilty": "500A",
+          "context": "",
+          "value": "2020-09-08T10:22:04.000Z",
+          "typedValues": []
+        },
+        {
+          "label": "DATE_LAST",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibilty": "500A",
+          "context": "",
+          "value": "2020-11-08T11:21:17.000Z",
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD1",
+          "typeName": "//float@1638",
+          "typeVersion": 1638,
+          "visibility": "500A",
+          "context": "",
+          "value": 7.9,
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD2",
+          "typeName": "//float@1638",
+          "typeVersion": 1638,
+          "visibility": "500A",
+          "context": "",
+          "value": "28.1",
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD3",
+          "typeName": "//int@1645",
+          "typeVersion": 1645,
+          "visibility": "500A",
+          "value": 0,
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD4",
+          "typeName": "//int1645",
+          "typeVersion": 1645,
+          "visibility": "500A",
+          "value": 8,
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD5",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibility": "500A",
+          "value": "this",
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD6",
+          "typeName": "//int@1645",
+          "typeVersion": 1645,
+          "visibility": "500A",
+          "value": 15,
+          "typedValue": []
+        },
+        {
+          "label": "SOME_FIELD7",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibility": "500A",
+          "value": "that",
+          "typedValues": []
+        }
+      ]
+    },
+    {
+      "domain": "DomainA",
+      "entityId": "123458",
+      "visibility": "",
+      "version": "",
+      "jobId": "",
+      "authorizations": [],
+      "timestamp": "2020-03-02T10:05:01:000Z",
+      "typeValueCount": 2,
+      "metadata": [
+        {
+          "keys": "_TIMESTAMP",
+          "values": [
+            "2020-03-02T10:05:01:000Z"
+          ]
+        },
+        {
+          "keys": "_DOMAIN",
+          "values": [
+            "DomainA"
+          ]
+        },
+        {
+          "keys": "_ENTITY_ID",
+          "values": [
+            "123458"
+          ]
+        }
+      ],
+      "typedValues": [
+        {
+          "label": "IdentifierA",
+          "typeName": "//ip//ipv4@12345",
+          "typeVersion": 12345,
+          "visibility": "500A",
+          "context": "",
+          "value": "3.3.3.3",
+          "typedValues": []
+        },
+        {
+          "label": "MULTIPOLYGON",
+          "typeName": "//wkt//wgs84e2d//multipolygon@10429",
+          "typeVersion": 10429,
+          "visibility": "500A",
+          "context": "",
+          "value": "MULTIPOLYGON(((-80.01306117229048 43.82281931115389,-79.90045130900923 43.880258527004905,-79.85375941447798 43.834707825522166,-79.92517054729048 43.77524157482189,-80.01306117229048 43.82281931115389)), ((-80.05975306682173 43.40123884820799,-79.88397181682173 43.48300140161895,-79.83727992229048 43.41720119391526,-79.82904017619673 43.371298111888166,-79.87847865275923 43.32136402265329,-79.89770472697798 43.40922054690039,-80.05975306682173 43.40123884820799)), ((-79.25775111369673 43.79308766564281,-79.19183314494673 43.816874165994726,-79.17535365275923 43.77722473688922,-79.25775111369673 43.79308766564281)), ((-79.77410853557173 43.94159789163819,-79.45825160197798 43.98706688976006,-79.45275843791548 43.94159789163819,-79.68347132854048 43.92775259324162,-79.77410853557173 43.94159789163819)))",
+          "typedValues": []
+        },
+        {
+          "label": "DATE_FIRST",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibilty": "500A",
+          "context": "",
+          "value": "2020-04-01T10:22:09.000Z",
+          "typedValues": []
+        },
+        {
+          "label": "DATE_LAST",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibilty": "500A",
+          "context": "",
+          "value": "2020-06-11T11:21:19.000Z",
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD1",
+          "typeName": "//float@1638",
+          "typeVersion": 1638,
+          "visibility": "500A",
+          "context": "",
+          "value": 7.3,
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD2",
+          "typeName": "//float@1638",
+          "typeVersion": 1638,
+          "visibility": "500A",
+          "context": "",
+          "value": "85.7",
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD3",
+          "typeName": "//int@1645",
+          "typeVersion": 1645,
+          "visibility": "500A",
+          "value": 1,
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD4",
+          "typeName": "//int1645",
+          "typeVersion": 1645,
+          "visibility": "500A",
+          "value": 13,
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD5",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibility": "500A",
+          "value": "something else",
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD6",
+          "typeName": "//int@1645",
+          "typeVersion": 1645,
+          "visibility": "500A",
+          "value": 5,
+          "typedValue": []
+        },
+        {
+          "label": "SOME_FIELD7",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibility": "500A",
+          "value": "a thing",
+          "typedValues": []
+        }
+      ]
+    },
+    {
+      "domain": "DomainA",
+      "entityId": "123459",
+      "visibility": "",
+      "version": "",
+      "jobId": "",
+      "authorizations": [],
+      "timestamp": "2020-01-08T10:05:01:000Z",
+      "typeValueCount": 2,
+      "metadata": [
+        {
+          "keys": "_TIMESTAMP",
+          "values": [
+            "2020-01-08T10:05:01:000Z"
+          ]
+        },
+        {
+          "keys": "_DOMAIN",
+          "values": [
+            "DomainA"
+          ]
+        },
+        {
+          "keys": "_ENTITY_ID",
+          "values": [
+            "123459"
+          ]
+        }
+      ],
+      "typedValues": [
+        {
+          "label": "IdentifierA",
+          "typeName": "//ip//ipv4@12345",
+          "typeVersion": 12345,
+          "visibility": "500A",
+          "context": "",
+          "value": "4.4.4.4",
+          "typedValues": []
+        },
+        {
+          "label": "MULTIPOLYGON",
+          "typeName": "//wkt//wgs84e2d//multipolygon@10429",
+          "typeVersion": 10429,
+          "visibility": "500A",
+          "context": "",
+          "value": "MULTIPOLYGON(((-77.75086787367093 45.59391666623947,-77.41029170179593 45.71294741765678,-76.89393427992093 45.31261904436342,-77.14112666273343 45.09975564446426,-77.67945674085843 45.14626650447173,-77.33888056898343 45.2894362900238,-77.75086787367093 45.59391666623947)))",
+          "typedValues": []
+        },
+        {
+          "label": "DATE_FIRST",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibilty": "500A",
+          "context": "",
+          "value": "2020-01-07T10:22:09.000Z",
+          "typedValues": []
+        },
+        {
+          "label": "DATE_LAST",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibilty": "500A",
+          "context": "",
+          "value": "2020-02-07T11:21:19.000Z",
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD1",
+          "typeName": "//float@1638",
+          "typeVersion": 1638,
+          "visibility": "500A",
+          "context": "",
+          "value": 3.3,
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD2",
+          "typeName": "//float@1638",
+          "typeVersion": 1638,
+          "visibility": "500A",
+          "context": "",
+          "value": "26.0",
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD3",
+          "typeName": "//int@1645",
+          "typeVersion": 1645,
+          "visibility": "500A",
+          "value": 0,
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD4",
+          "typeName": "//int1645",
+          "typeVersion": 1645,
+          "visibility": "500A",
+          "value": 9,
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD5",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibility": "500A",
+          "value": "here",
+          "typedValues": []
+        },
+        {
+          "label": "SOME_FIELD6",
+          "typeName": "//int@1645",
+          "typeVersion": 1645,
+          "visibility": "500A",
+          "value": 4,
+          "typedValue": []
+        },
+        {
+          "label": "SOME_FIELD7",
+          "typeName": "//string@2458",
+          "typeVersion": 2458,
+          "visibility": "500A",
+          "value": "there",
+          "typedValues": []
+        }
+      ]
+    }
+  ]
+}
