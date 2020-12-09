@@ -3,9 +3,9 @@
   "messages": [
     {
       "level": "INFO",
-      "text": {
+      "text": [
         "The query was executed successfully"
-      }
+      ]
     }
   ],
   "results": [
